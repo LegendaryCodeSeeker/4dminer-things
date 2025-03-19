@@ -1,0 +1,302 @@
+{
+    "LanguageName": "Pirate Speak",
+
+    "LoadingText": "Weigh anchor an' hoist the mizzen!",
+    "OkButton": "Arr",
+    "CancelButton": "Heave to",
+    "YesButton": "Aye",
+    "NoButton": "Nay",
+    "ContinueButton": "Sail on",
+    "BackButton": "Turn tail",
+    "ExitButton": "Scuttle",
+    "EditButton": "Modify",
+    "SaveButton": "Record log",
+    "CopyButton": "Copy",
+    "ChooseFileButton": "Choose yer rags...",
+    "DefaultValueText": "{} (default)",
+    "ErrorPopup": {
+        "TitleText": "Shiver Me Timbers!"
+    },
+    
+    "TitleScreen": {
+        "DemoText": "Trial",
+        "SingleplayerButton": "Sailing alone",
+        "MultiplayerButton": "Seas fer yer maties",
+        "TutorialButton": "Sea fer landlubbers",
+        "SettingsButton": "Rig the sails",
+        "CreditsButton": "Old Salts",
+        "QuitButton": "Davy Jones Locker"
+    },
+    
+    "Singleplayer": {
+        "YourWorldsText": "Yer Seven(ish) Seas:",
+        "NoWorldsText": "Get out there an' find a new sea!",
+        "InvalidWorldButton": "{} (Cursed Sea)",
+        "OldWorldButton": "{} (Ancient Sea)",
+        "NewWorldButton": "New Sea",
+        "WorldConversionPopup": {
+            "TitleText": "Update Sea Maps?",
+            "OldWorldVersionText": "The sea \"{}\" cannot be reached because it be from too old a time ({}), which be incompatible with this 'ere time ({}).",
+            "OldWorldVersionlessText": "The sea \"{}\" cannot be reached because it be from a time beyond our time.",
+            "ConversionPromptText": "Would ye like t' update the sea logs with the newest knowledge? Ye will 'ave the ability t' make a backup first."
+        },
+        "InvalidWorldPopup": {
+            "TitleText": "Cursed Sea!",
+            "InvalidVersionText": "The Sea \"{}\" shant be navigated to because it be either from the future, or 'as been cursed by Davy Jones."
+        }
+    },
+
+    "Multiplayer": {
+        "ServerAddressText": "Sea Directions",
+        "DisplayNameText": "Moniker:",
+        "DisplayNameInput": "Jack Sparrow",
+        "UuidText": "UUID:",
+        "UuidDescriptionText": "Yer UUID is a secret value that be generated the first time ye open this 'ere menu.\nUUIDs allow ye t' log yer adventures on different Seas.\n\nDONT let some scallywag plunder it from ye.\nYe can transfer yer UUID from a previous life by switchin'/modifin' the \"uuid.txt\" scroll.",
+        "JoinButton": "Loot this 'ere Sea!",
+        "ChangeSkinButton": "Cleave yer brisket",
+        "Status": {
+            "ResolvingHostText": "Readin' the map...",
+            "ConnectingText": "Sailin' to the sea...",
+            "AuthenticatingText": "Checkin' the map...",
+            "RemoteDisconnectedText": "Sink Me! The map twas shark bait!",
+            "FailedToConnectText": "Sink Me! The map twas unreadable!",
+            "ErrorText": "We be lost!",
+            "LoadingTerrainText": "Navigatin' the fog...",
+            "QueuePositionText": "Fathoms from yer mark: {}(00)",
+            "InvalidResponseText": "Sink Me! 'tis the wrong map!",
+            "IncompatibleVersionText": "Sink Me! Yer letter from yer buckaneers be from a different time.\n\nCorrect time(s): {}",
+            "ServerFullText": "Sink Me! Ye was to slow!",
+            "LostConnectionText": "Sink Me! Ye lost t' map!"
+        }
+    },
+    
+    "CreateWorld": {
+        "WorldNameText": "Sea Name:",
+        "WorldNameInput": "New Sea",
+        "WorldSeedText": "Secret o' the sea:",
+        "FlatWorldCheckbox": "Calm Sea",
+        "GenerateCavesCheckbox": "Carve out the sea (slower)",
+        "CaveSizeSlider": "Carver Size: {}%",
+        "CaveFrequencySlider": "Carver Frequency: {}%",
+        "CaveDetailLevelSlider": "Carver Detail: {} (Will SERIOUSLY slow yer ship.)",
+        "BiomeSizeSlider": "Biome Size: {}%",
+        "TerrainAmplificationSlider": "Sea Un-stedieness: {}%",
+        "CreateNewWorldButton": "Sail a new Sea!",
+        "NoNamePopup": {
+            "NoNameText": "Ye must name this 'ere sea!"
+        }
+    },
+
+    "WorldConverter": {
+        "CloseWarningText": "DO NOT SCUTTLE!",
+        "BackupWorldTitle": "{} (backup)",
+        "BackupStatusText": "Copyin' sea logs \"{}\"...",
+        "ConversionStatusText": "Translatin' map \"{}\" from {} t' {}...",
+        "ConversionFinishedText": "Sea maps translated an' updated!",
+        "BackupPopup": {
+            "TitleText": "Copy \"{}\" sea logs?",
+            "PromptText": "Logs fer \"{}\" may be lost in translation. Want t' make a copy of the logs first?"
+        },
+        "ErrorPopup": {
+            "GenericConversionErrorText": "Sink Me! Sea logs could not be updated t' {}.",
+            "InvalidObjectText": "Unable t' copy wrong object \"{}\" (expected a shelf or regular sea log).",
+            "CopyErrorText": "Unable t' copy object \"{}\": \"{}\"",
+            "MissingChunksDirText": "Missing \"chunks\" shelf.",
+            "UnableToOpenFileText": "Unable t' open sea log \"{}\"."
+        },
+        "ConversionStatus": {
+            "CleaningUpText": "Swabbing deck..."
+        }
+    },
+    
+    "WorldGen": {
+        "ProgressText": "{}/{} Supplies loaded"
+    },
+
+    "Settings": {
+        "ControlsButton": "The Ropes",
+        "FullscreenButton": {
+            "EnterText": "Full Pirate Mode",
+            "ExitText": "Half Pirate Mode"
+        },
+        "RenderDistanceSlider": "Eye Health: {}",
+        "ScrollSensitivitySlider": "Strange Look Sensitivity:",
+        "LookSensitivitySlider": "Look Sensitivity:",
+        "InvertLookXCheckbox": "Squiffy Horizontally",
+        "InvertLookYCheckbox": "Squiffy Vertically",
+        "FovSlider": {
+            "LabelText": "Spectals Strength: {}",
+            "ValueText": "{}X"
+        },
+        "DifficultySlider": {
+            "LabelText": "Difficulty: {}",
+            "EasyText": "Landlubber (no monsters)",
+            "NormalText": "Flogging",
+            "HardText": "Feed the Fish"
+        },
+        "SmoothLightingCheckbox": "Smooth Flame",
+        "ShadowsCheckbox": "Shadows",
+        "ColoredLightsCheckbox": "Colored Flames",
+        "4DClouds": {
+            "EnabledCheckbox": "4D Clouds",
+            "HeightSlider": "4D Clouds Height: {}"
+        },
+        "Forg": {
+            "LabelText": "Forg: {}",
+            "Names": {
+                "Frank": "Frank the Terrible",
+                "Fernanda": "Fernanda the Wicked"
+            }
+        },
+        "Audio": {
+            "LabelText": "Deafness:",
+            "GlobalVolumeSlider": "Overall:",
+            "MusicVolumeSlider": "Shanty:",
+            "CreatureVolumeSlider": "Creature:",
+            "AmbienceVolumeSlider": "Sea:"
+        },
+        "Multiplayer": {
+            "LabelText": "Crew:",
+            "ChatCheckbox": "See buccaneers' messages",
+            "NametagsCheckbox": "Show buccaneers' monikers",
+            "SkinsCheckbox": "Show buccaneers' true colors"
+        }
+    },
+
+    "Tutorial": {
+        "Slideshow": {
+            "Slide1": {
+                "Text1": "This here tutorial be designed t' help ye understand t' 4-Dimensional Sea.\n\n\n\nBy comparin' the differences between 2D an' 3D seas, ye can get an idea of 'ow a 3D sea relates t' a 4D sea."
+            },
+            "Slide2": {
+                "Text1": "This 'ere be {}, a forg (Aye, forg, i be no grog blossom.)",
+                "Text2": "Forgs be 2D beings, which means they only be existin' on a 2D slice, but that there doesn't necessarily mean they can't be explorin' the 3rd Dimension!\n\n\n\nForgs can move around in any 2D slice o' the 3D sea around them."
+            },
+            "Slide3": {
+                "Text1": "Forgs also have the unique ability t' rotate theirrr slice of t' sea in the 3rd dimension, which be allowin' them t' see any slice they be wantin' t'!",
+                "Text2": "In this 'ere next part, ye be able t' control {} an' experience this 'ere magic ability posthaste!"
+            },
+            "Slide4": {
+                "Text1": "The same logic be applyin' t' the 3rd an' 4th dimensions.\n\n\nYe can scroll with yer mouse t' rotate yer view o' the 4D sea an' see completely new aspects of the seas!",
+                "Text2": "Savvy? Good, if ye be wantin' help navigatin' through this here 4th Dimension, seek t'",
+                "Text3": "Compass o' the Sea!"
+            }
+        },
+        "ForgGame": {
+            "2DViewText": "WASD or arrow keys t' move {} the forg.\n\nScroll with yer mouse t' rotate the 2D slice!",
+            "3DViewText": "Click + drag t' adjust yer 3D view"
+        }
+    },
+
+    "Game": {
+        "Chat": {
+            "LabelText": "Buccaneers messages:"
+        },
+        "CraftingMenu": {
+            "LabelText": "Craftin':"
+        },
+        "Compass": {
+            "PositionText": "Pirate's Coordinates: {0}, {1}, {2}, {3}",
+            "FacingDirectionText": "Lookin' Direction: {0}, {1}, {2}, {3}",
+            "XText": "X: {}",
+            "YText": "Y: {}",
+            "ZText": "Z: {}",
+            "WText": "W: {}"
+        },
+        "Chest": {
+            "LabelText": "Coffer:"
+        },
+        "Sign": {
+            "LabelText": "Sign:"
+        }
+    },
+
+    "Pause": {
+        "PausedText": "Sails Raised...",
+        "BackToGameButton": "Keep Sailin'",
+        "QuitToTitleButton": "Land 'o"
+    },
+
+    "DeathScreen": {
+        "RetryButton": "Hornswaggle Death..."
+    },
+
+  "Items": {
+    "Air": "Air",
+    "Grass": "Turf",
+    "Dirt": "Dirt",
+    "Stone": "Stone",
+    "Wood": "Wood",
+    "Leaf": "Leaf",
+    "SemiMoltenRock": "Hot Rock",
+    "IronOre": "Iron Ore",
+    "DeadlyOre": "Davy's Ore",
+    "Chest": "Coffer",
+    "MidnightGrass": "Cursed Turf",
+    "MidnightSoil": "Cursed Soil",
+    "MidnightStone": "Cursed Stone",
+    "MidnightWood": "Cursed Wood",
+    "MidnightLeaf": "Cursed Leaf",
+    "Bush": "Bush",
+    "MidnightBush": "Cursed Bush",
+    "RedFlower": "Red Flower",
+    "WhiteFlower": "White Flower",
+    "BlueFlower": "Blue Flower",
+    "TallGrass": "Grass",
+    "Sand": "Sand",
+    "Sandstone": "Sandstone",
+    "Cactus": "Prickly Bush",
+    "Snow": "Snow",
+    "Ice": "Ice",
+    "SnowyBush": "Snowy Bush",
+    "Glass": "Glass",
+    "SolenoidOre": "Tubularrr Ore",
+    "SnowyLeaf": "Snowy Leaf",
+    "Pumpkin": "Pumpkin",
+    "JackOLantern": "Jack o'Lantern",
+    "PalmWood": "Palm Wood",
+    "PalmLeaf": "Palm Leaf",
+    "Water": "Water",
+    "Lava": "Lava",
+    "VolcanicRock": "Blackstone",
+    "GrassSlab": "Turf Step",
+    "DirtSlab": "Dirt Step",
+    "StoneSlab": "Stone Step",
+    "WoodSlab": "Wood Step",
+    "SemiMoltenRockSlab": "Hot Rock Step",
+    "MidnightStoneSlab": "Cursed Stone Step",
+    "MidnightWoodSlab": "Cursed Wood Step",
+    "SandstoneSlab": "Sandstone Step",
+    "SnowSlab": "Snow Step",
+    "IceSlab": "Ice Step",
+    "GlassSlab": "Glass Step",
+    "PalmWoodSlab": "Palm Wood Step",
+    "VolcanicRockSlab": "Blackstone Step",
+    "Stick": "Twig",
+    "Hammer": "Hammer",
+    "IronPick": "Iron Pick",
+    "DeadlyPick": "Davy's Pick",
+    "IronAxe": "Iron Axe",
+    "DeadlyAxe": "Davy's Axe",
+    "Ultrahammer": "Hammer o' Power",
+    "SolenoidCollector": "Tubularrr Collecter",
+    "Rock": "Rock",
+    "Hypersilk": "Magic Strin'",
+    "IronBars": "Iron Bars",
+    "DeadlyBars": "Davy's Bars",
+    "SolenoidBars": "Bars fer Tubularrr Devices",
+    "Compass": "Compass o' the Sea",
+    "4DGlasses": "4D Specs",
+    "KleinBottle": "Strange Bottle",
+    "HealthPotion": "Potion o' Rejuvenation",
+    "JellyfishJuice": "Bottled Jellyfish",
+    "RedLens": "Ruby Wing Lens",
+    "GreenLens": "Emerald Wing Lens",
+    "BlueLens": "Sapphire Wing Lens",
+    "Alidade": "Strange Spyglass",
+    "Sign": "Sign",
+    "Bucket": "Pale",
+    "WaterBucket": "Pale o' Water",
+    "LavaBucket": "Pale o' Lava"
+  }
+}
